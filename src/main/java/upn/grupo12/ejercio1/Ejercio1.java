@@ -6,13 +6,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Ejercio1 {
+public class Ejercio1 { 
 
 public static void main(String[] args) {
         ArrayList<Usuario> usuarios = new ArrayList<>();
         Scanner input = new Scanner(System.in);
 
-        ControladorUsuarios.Mensaje.saludo();
+        ControladorUsuarios.Mensaje.saludo(); 
 
         String continuar = "s";  
         while (continuar.equalsIgnoreCase("s")) {
