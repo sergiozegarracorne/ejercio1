@@ -30,7 +30,7 @@ public static void main(String[] args) {
                 Usuario nuevo = new Usuario(nombre, edad, ciudad);
                 usuarios.add(nuevo);
             } catch (NumberFormatException e) {
-                System.out.println("Edad no valida. Intente nuevamente.");
+                System.out.println("Edad no valida. Intente nuevamente");
                 continue;
             }
 
@@ -39,7 +39,7 @@ public static void main(String[] args) {
         }
 
         // Mostrar total
-        System.out.println("\nTotal de usuarios registrados: " + usuarios.size());
+        System.out.println("\nTOTAL de usuarios registrados: " + usuarios.size());
 
         // Promedio de edad
         if (!usuarios.isEmpty()) {
