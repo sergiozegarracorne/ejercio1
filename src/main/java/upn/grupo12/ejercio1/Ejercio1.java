@@ -14,7 +14,7 @@ public static void main(String[] args) {
 
         ControladorUsuarios.Mensaje.saludo();
 
-        String continuar = "s";
+        String continuar = "s";  
         while (continuar.equalsIgnoreCase("s")) {
             try {
                 System.out.print("Ingrese nombre: ");
