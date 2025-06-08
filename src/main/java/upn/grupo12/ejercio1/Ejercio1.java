@@ -24,7 +24,7 @@ public static void main(String[] args) {
                 int edad = Integer.parseInt(input.nextLine());
                 if (edad <= 0) throw new NumberFormatException();
 
-                System.out.print("Ingrese ciudad: ");
+                System.out.print("Ingrese PAIS: ");
                 String ciudad = input.nextLine();
 
                 Usuario nuevo = new Usuario(nombre, edad, ciudad);
